@@ -51,14 +51,19 @@ a{
 .firstview{
     width:100%;
     position:relative;
-    height:550px;
+}
+
+.firstview::before{
+    content:"";
+    display:block;
+    padding-top:40%;
 }
 
 .firstview-text{
     position:absolute;
     top:50px;
     left:20%;
-    width:100%;
+    width:60%;
     z-index:10;
 }
 
@@ -98,6 +103,7 @@ a{
     width:55%;
     margin:0 auto;
     padding:100px 0;
+    min-width:580px;
 }
 
 .news-list{
